@@ -20,9 +20,9 @@
 데이터 분석 기법으로는 __회귀분석 모델__ 과 __k-means 군집화 모델__ 을 사용하였다.
 
 * 회귀분석 모델
-  - Elastic Net, Lasso, Ridge, LinearRegression, LGBM, XGboost, Random Forest, SVM등의 모델을 검토하여 RMSE값을 비교하여 RMSE값이 가장 낮은 모델을 사용, 선정된 모델의 feature importance와 permutation importance를 추출하여 모델의 성능에 영향을 미치는 여러 변수 중 의미있는 변수를 선정, 그에 따른 가중치를 부여하여 최종 입지 지표를 산출하는 방식으로 진행 
+  - Elastic Net, Lasso, Ridge, LinearRegression, LGBM, XGboost, Random Forest, SVM등의 모델에 대한 각각의 RMSE값을 비교하여 RMSE값이 가장 낮은 모델을 사용, 선정된 모델의 feature importance와 permutation importance를 추출하여 모델의 성능에 영향을 미치는 여러 변수 중 의미있는 변수를 선정, 그에 따른 가중치를 부여하여 최종 입지 지표를 산출하는 방식으로 진행 
 * 군집화 모델
-  - 지역별 특성을 활용한 군집화를 통해 충전소가 가장 필요할 것으로 예상되는 지역그룹을 선정. 현재수요와 잠재수요를 대변하는 4개의 변수를 선택. Elbow method와 NBClust지표분석을 활용해 최적의 군집개수를 탐색
+  - 지역별 특성을 활용한 군집화를 통해 충전소가 가장 필요할 것으로 예상되는 지역그룹을 선정. 현재수요와 잠재수요를 대변하는 4개의 변수를 선택. Elbow method와 Silhouette coefficient을 활용해 최적의 군집개수를 탐색
 
 ## 4. 분석 결과
 * 거주지 분석 결과
