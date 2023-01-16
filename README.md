@@ -26,7 +26,7 @@
 
 ## 분석 결과
 * 거주지 분석 결과
-
+![거주지결과](https://user-images.githubusercontent.com/90170238/212661939-c8794075-a4de-4db0-8722-da3ce3922a26.PNG)
 * 활동지 분석 결과
 
 
